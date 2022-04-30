@@ -33,5 +33,5 @@ del ht[3]
 ht[3] # --> KeyError
 ```
 
-The class also supports the ```len``` operator, ```print```, and string conversion. It makes use of closed addressing and dynamic resizing to deal with collisions. 
+The class also supports the ```len``` operator, ```print```, and string conversion. It makes use of closed addressing and dynamic resizing based on a calculation of the load factor in order to deal with collisions. 
 It can return all keys, values, or items and maintains the insertion order.
